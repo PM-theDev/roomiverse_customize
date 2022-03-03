@@ -14,7 +14,7 @@ import React from "react";
 
 const walletPublicKey = "";
 const uri = ""
-const fetchNftMeta = (uri) => {
+const fetchNftMeta = (uri : string) => {
   return axios
     .get(`${uri}`)
     .then(({ data }) => {
@@ -26,20 +26,20 @@ const fetchNftMeta = (uri) => {
     });
 };
 
-const getFullattributes = (nftAttribute) => {
+const getFullattributes = (nftAttribute : any) => {
   const { collection: { name, family } } = nftAttribute;
   return `${name}: ${family}`
 }
 
-const nftAttribute = [];
-var Rug = [];
-var Door = [];
-var Sofa = [];
-var Stuff = [];
-var Floor = [];
-var View = [];
-var Wall = [];
-var Lamp = [];
+var nftAttribute = [];
+var Rug : any = [];
+var Door : any = [];
+var Sofa : any = [];
+var Stuff : any = [];
+var Floor : any = [];
+var View : any = [];
+var Wall : any = [];
+var Lamp : any = [];
 
 
 export const GalleryView: FC = ({ }) => {
@@ -108,14 +108,14 @@ export const GalleryView: FC = ({ }) => {
       )
     }
 
-    Rug = [...new Set(Rug)];
-    Door = [...new Set(Door)];
-    Wall = [...new Set(Wall)];
-    Floor = [...new Set(Floor)];
-    Sofa = [...new Set(Sofa)];
-    Lamp = [...new Set(Lamp)];
-    Stuff = [...new Set(Stuff)];
-    View = [...new Set(View)];
+    Rug = Array.from(new Set(Rug));
+    Door = Array.from(new Set(Door));
+    Wall = Array.from(new Set(Wall));
+    Floor = Array.from(new Set(Floor));
+    Sofa = Array.from(new Set(Sofa));
+    Lamp = Array.from(new Set(Lamp));
+    Stuff = Array.from(new Set(Stuff));
+    View = Array.from(new Set(View));
 
     setWallDetail(Wall[WallState].replace(".jpg", "").replace(".png", ""))
     setDoorDetail(Door[DoorState].replace(".jpg", "").replace(".png", ""))
@@ -128,18 +128,18 @@ export const GalleryView: FC = ({ }) => {
     return { Rug, Door, Wall, Floor, Sofa, Lamp, Stuff, View };
   }
 
-  Rug = [...new Set(Rug)];
-  Door = [...new Set(Door)];
-  Wall = [...new Set(Wall)];
-  Floor = [...new Set(Floor)];
-  Sofa = [...new Set(Sofa)];
-  Lamp = [...new Set(Lamp)];
-  Stuff = [...new Set(Stuff)];
-  View = [...new Set(View)];
+  Rug = Array.from(new Set(Rug));
+  Door = Array.from(new Set(Door));
+  Wall = Array.from(new Set(Wall));
+  Floor = Array.from(new Set(Floor));
+  Sofa = Array.from(new Set(Sofa));
+  Lamp = Array.from(new Set(Lamp));
+  Stuff = Array.from(new Set(Stuff));
+  View = Array.from(new Set(View));
 
 
 
-  function nextRug() {
+  function nextRug(Rug: any, RugState: number) {
     let next_num = RugState + 1
     // if next_num exceeds total, restart (set current to 0)
     let new_current = next_num < Rug.length ? next_num : 0
