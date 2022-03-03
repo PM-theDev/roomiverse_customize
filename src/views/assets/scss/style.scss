@@ -1,0 +1,223 @@
+#container{
+    position: absolute;
+    margin:auto;
+    width: 100%;
+    height: 100%;
+}
+
+#background{
+    position: absolute;
+}
+
+#Wall, #Floor, #Door, #Window, #Lamp, #Rug, #Sofa, #Stuff{
+    position:absolute;
+    width:1920px;   /* width of actual image */
+    height:1080px; /* height of actual image */
+}
+
+.Wall1{
+    background-image: url(../img/Wall/RMV-Condo-Wall.jpg);
+}
+
+.Wall2{
+    background-image: url(../img/Wall/RMV_Meta_Wall.png);
+}
+
+.Wall3{
+    background-image: url(../img/Wall/RMV-Aquatic-Wall.png);
+}
+
+.Wall4{
+    background-image: url(../img/Wall/RMV-Beach-Wall.png);
+}
+
+.Wall5{
+    background-image: url(../img/Wall/RMV-Neon-Wall.png);
+}
+
+.Floor1{
+    background-image: url(../img/Floor/RMV-Condo-Floor.png);
+}
+
+.Floor2{
+    background-image: url(../img/Floor/RMV_Meta_Floor.png);
+}
+
+.Floor3{
+    background-image: url(../img/Floor/RMV-Aquatic-Floor.png);
+}
+
+.Floor4{
+    background-image: url(../img/Floor/RMV-Beach-Floor.png);
+}
+
+.Floor5{
+    background-image: url(../img/Floor/RMV-Neon-Floor.png);
+}
+
+.Door1{
+    background-image: url(../img/Door/RMV-Condo-Door.png);
+}
+
+.Door2{
+    background-image: url(../img/Door/RMV-Aquatic-Door.png);
+}
+
+.Door3{
+    background-image: url(../img/Door/RMV-Hell-Door.png);
+}
+
+.Window1{
+    background-image: url(../img/Window/RMV-Condo-Window.png);
+}
+
+.Window2{
+    background-image: url(../img/Window/RMV_Meta_Window.png);
+}
+
+.Window3{
+    background-image: url(../img/Window/RMV-Aquatic-Window.png);
+}
+
+.Window4{
+    background-image: url(../img/Window/RMV-Beach-Window.png);
+}
+
+.Window5{
+    background-image: url(../img/Window/RMV-Neon-Window.png);
+}
+
+.Lamp1{
+    background-image: url(../img/Lamp/RMV-Condo-Lamp.png);
+}
+
+.Lamp2{
+    background-image: url(../img/Lamp/RMV_Meta_Lamp.png);
+}
+
+.Lamp3{
+    background-image: url(../img/Lamp/RMV-Aquatic-Lamp.png);
+}
+
+.Lamp4{
+    background-image: url(../img/Lamp/RMV-Beach-Lamp.png);
+}
+
+.Lamp5{
+    background-image: url(../img/Lamp/RMV-Neon-Lamp.png);
+}
+
+.Rug1{
+    background-image: url(../img/Rug/RMV-Condo-Rug.png);
+}
+
+.Rug2{
+    background-image: url(../img/Rug/RMV_Meta_Rug.png);
+}
+
+.Rug3{
+    background-image: url(../img/Rug/RMV-Aquatic-Rug.png);
+}
+
+.Rug4{
+    background-image: url(../img/Rug/RMV-Beach-Rug.png);
+}
+
+.Rug5{
+    background-image: url(../img/Rug/RMV-Neon-Rug.png);
+}
+
+.Sofa1{
+    background-image: url(../img/Sofa/RMV-Condo-Sofa.png);
+}
+
+.Sofa2{
+    background-image: url(../img/Sofa/RMV_Meta_Sofa.png);
+}
+
+.Sofa3{
+    background-image: url(../img/Sofa/RMV-Aquatic-Sofa.png);
+}
+
+.Sofa4{
+    background-image: url(../img/Sofa/RMV-Beach-Sofa.png);
+}
+
+.Sofa5{
+    background-image: url(../img/Sofa/RMV-Neon-Sofa.png);
+}
+
+.Stuff1{
+    background-image: url(../img/Stuff/RMV-Condo-Stuff.png);
+}
+
+.Stuff2{
+    background-image: url(../img/Stuff/RMV_Meta_Stuff.png);
+}
+
+.Stuff3{
+    background-image: url(../img/Stuff/RMV-Aquatic-Stuff.png);
+}
+
+.Stuff4{
+    background-image: url(../img/Stuff/RMV-Beach-Stuff.png);
+}
+
+.Stuff5{
+    background-image: url(../img/Stuff/RMV-Neon-Stuff.png);
+}
+
+#nextWall{
+    position:absolute;
+    left: 100px;
+    top: 1100px;
+}
+
+#nextFloor{
+    position:absolute;
+    left: 200px;
+    top: 1100px;
+}
+
+#nextDoor{
+    position:absolute;
+    left: 300px;
+    top: 1100px;
+}
+
+#nextLamp{
+    position:absolute;
+    left: 400px;
+    top: 1100px;
+}
+
+#nextWindow{
+    position:absolute;
+    left: 500px;
+    top: 1100px;
+}
+
+#nextRug{
+    position:absolute;
+    left: 600px;
+    top: 1100px;
+}
+
+#nextSofa{
+    position:absolute;
+    left: 700px;
+    top: 1100px;
+}
+
+#nextStuff{
+    position:absolute;
+    left: 800px;
+    top: 1100px;
+}
+
+#randomize{
+    position:absolute;
+    left:900px;
+    top:1100px;
+    font-weight: bold;
+}

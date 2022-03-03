@@ -8,9 +8,457 @@ body {
   font-size: 18px;
   height: 100vh;
   width: 100vw;
+  background-color: #242275;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+#container_customize{
+  position: absolute;
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+  background-color: #242275;
+}
+
+#background_customize{
+  position: absolute;
+}
+
+
+#Wall, #Floor, #Door, #Window, #Lamp, #Rug, #Sofa, #Stuff {
+  position: absolute;
+  width: 1920px;
+  height: 1080px;
+  left: 15vw;
+  border: 10px solid #EE9927;
+  /* width of actual image */
+  /* height of actual image */
+}
+
+.RMV-Condo-Wall {
+  background-image : url(./img/Wall/RMV-Condo-Wall.jpg)
+}
+
+.RMV-Condo-Door {
+  background-image : url(./img/Door/RMV-Condo-Door.png)
+}
+
+.RMV-Condo2 {
+  background-image : url(./img/Door/RMV-Condo2.png)
+}
+.RMV-Condo3 {
+  background-image : url(./img/Door/RMV-Condo3.png)
+}
+.RMV-Condo4 {
+  background-image : url(./img/Door/RMV-Condo4.png)
+}
+
+.RMV-Condo-Window {
+  background-image : url(./img/Window/RMV-Condo-Window.png)
+}
+
+.RMV-Condo-Floor {
+  background-image : url(./img/Floor/RMV-Condo-Floor.png)
+}
+
+.RMV-Condo-Stuff {
+  background-image : url(./img/Stuff/RMV-Condo-Stuff.png)
+}
+
+.RMV-Condo-Sofa {
+  background-image : url(./img/Sofa/RMV-Condo-Sofa.png)
+}
+
+.RMV-Condo-Lamp {
+  background-image : url(./img/Lamp/RMV-Condo-Lamp.png)
+}
+
+.RMV-Condo-Rug {
+  background-image : url(./img/Rug/RMV-Condo-Rug.png)
+}
+
+
+.RMV_Meta_Wall{
+  background-image: url(./img/Wall/RMV_Meta_Wall.png);
+}
+
+.RMV-Aquatic-Wall{
+  background-image: url(./img/Wall/RMV-Aquatic-Wall.png);
+}
+
+.RMV-Beach-Wall{
+  background-image: url(./img/Wall/RMV-Beach-Wall.png);
+}
+
+.RMV-Neon-Wall{
+  background-image: url(./img/Wall/RMV-Neon-Wall.png);
+}
+
+.RMV-Condo-Floor{
+  background-image: url(./img/Floor/RMV-Condo-Floor.png);
+}
+
+.RMV_Meta_Floor{
+  background-image: url(./img/Floor/RMV_Meta_Floor.png);
+}
+
+.RMV-Aquatic-Floor{
+  background-image: url(./img/Floor/RMV-Aquatic-Floor.png);
+}
+
+.RMV-Beach-Floor{
+  background-image: url(./img/Floor/RMV-Beach-Floor.png);
+}
+
+.RMV-Neon-Floor{
+  background-image: url(./img/Floor/RMV-Neon-Floor.png);
+}
+
+.RMV-Condo-Door{
+  background-image: url(./img/Door/RMV-Condo-Door.png);
+}
+
+.RMV-Aquatic-Door{
+  background-image: url(./img/Door/RMV-Aquatic-Door.png);
+}
+
+.RMV-Hell-Door{
+  background-image: url(./img/Door/RMV-Hell-Door.png);
+}
+
+.RMV-Condo-Window{
+  background-image: url(./img/Window/RMV-Condo-Window.png);
+}
+
+.RMV_Meta_Window{
+  background-image: url(./img/Window/RMV_Meta_Window.png);
+}
+
+.RMV-Aquatic-Window.{
+  background-image: url(./img/Window/RMV-Aquatic-Window.png);
+}
+
+.RMV-Beach-Window{
+  background-image: url(./img/Window/RMV-Beach-Window.png);
+}
+
+.RMV-Neon-Window{
+  background-image: url(./img/Window/RMV-Neon-Window.png);
+}
+
+.RMV-Condo-Lamp{
+  background-image: url(./img/Lamp/RMV-Condo-Lamp.png);
+}
+
+.RMV_Meta_Lamp{
+  background-image: url(./img/Lamp/RMV_Meta_Lamp.png);
+}
+
+.RMV-Aquatic-Lamp{
+  background-image: url(./img/Lamp/RMV-Aquatic-Lamp.png);
+}
+
+.RMV-Beach-Lamp{
+  background-image: url(./img/Lamp/RMV-Beach-Lamp.png);
+}
+
+.RMV-Neon-Lamp{
+  background-image: url(./img/Lamp/RMV-Neon-Lamp.png);
+}
+
+.RMV-Lamp-UFO{
+  background-image: url(./img/Lamp/RMV-Lamp-UFO.png);
+}
+
+.RMV-Condo-Rug{
+  background-image: url(./img/Rug/RMV-Condo-Rug.png);
+}
+
+.RMV_Meta_Rug{
+  background-image: url(./img/Rug/RMV_Meta_Rug.png);
+}
+
+.RMV-Aquatic-Rug{
+  background-image: url(./img/Rug/RMV-Aquatic-Rug.png);
+}
+
+.RMV-Beach-Rug{
+  background-image: url(./img/Rug/RMV-Beach-Rug.png);
+}
+
+.RMV-Neon-Rug{
+  background-image: url(./img/Rug/RMV-Neon-Rug.png);
+}
+
+.RMV-Condo-Sofa{
+  background-image: url(./img/Sofa/RMV-Condo-Sofa.png);
+}
+
+.RMV_Meta_Sofa{
+  background-image: url(./img/Sofa/RMV_Meta_Sofa.png);
+}
+
+.RMV-Aquatic-Sofa{
+  background-image: url(./img/Sofa/RMV-Aquatic-Sofa.png);
+}
+
+.RMV-Beach-Sofa{
+  background-image: url(./img/Sofa/RMV-Beach-Sofa.png);
+}
+
+.RMV-Neon-Sofa{
+  background-image: url(./img/Sofa/RMV-Neon-Sofa.png);
+}
+
+.RMV-Condo-Stuff{
+  background-image: url(./img/Stuff/RMV-Condo-Stuff.png);
+}
+
+.RMV_Meta_Stuff{
+  background-image: url(./img/Stuff/RMV_Meta_Stuff.png);
+}
+
+.RMV-Aquatic-Stuff{
+  background-image: url(./img/Stuff/RMV-Aquatic-Stuff.png);
+}
+
+.RMV-Beach-Stuff{
+  background-image: url(./img/Stuff/RMV-Beach-Stuff.png);
+}
+
+.RMV-Neon-Stuff{
+  background-image: url(./img/Stuff/RMV-Neon-Stuff.png);
+}
+
+.RMV-Door_Space{
+  background-image: url(./img/Door/RMV-Door_Space.png);
+}
+
+#nextWall{
+  position:absolute;
+  left: 2500px;
+  top: 500px;
+  color: white;
+  border-radius: 5px;
+  padding: 0 10px;
+  background-color: #EE9927;
+  font-weight: 500;
+  
+}
+
+#nextFloor{
+  position:absolute;
+  left: 2500px;
+  top: 550px;
+  color: white;
+  border-radius: 5px;
+  padding: 0 10px;
+  background-color: #EE9927;
+  font-weight: 500;
+}
+
+#nextDoor{
+  position:absolute;
+  left: 2500px;
+  top: 600px;
+  color: white;
+  border-radius: 5px;
+  padding: 0 10px;
+  background-color: #EE9927;
+  font-weight: 500;
+}
+
+#nextLamp{
+  position:absolute;
+  left: 2500px;
+  top: 650px;
+  color: white;
+  border-radius: 5px;
+  padding: 0 10px;
+  background-color: #EE9927;
+  font-weight: 500;
+}
+
+#nextView{
+  position:absolute;
+  left: 2500px;
+  top: 700px;
+  color: white;
+  border-radius: 5px;
+  padding: 0 10px;
+  background-color: #EE9927;
+  font-weight: 500;
+}
+
+#nextRug{
+  position:absolute;
+  left: 2500px;
+  top: 750px;
+  color: white;
+  border-radius: 5px;
+  padding: 0 10px;
+  background-color: #EE9927;
+  font-weight: 500;
+}
+
+#nextSofa{
+  position:absolute;
+  left: 2500px;
+  top: 800px;
+  color: white;
+  border-radius: 5px;
+  padding: 0 10px;
+  background-color: #EE9927;
+  font-weight: 500;
+}
+
+#nextStuff{
+  position:absolute;
+  left: 2500px;
+  top: 850px;
+  color: white;
+  border-radius: 5px;
+  padding: 0 10px;
+  background-color: #EE9927;
+  font-weight: 500;
+}
+
+#randomize{
+  position:absolute;
+  left:2500px;
+  top: 1000px;
+  color: white;
+  border-radius: 5px;
+  padding: 0 10px;
+  background-color: #EE9927;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 2500px) {
+  #Wall, #Floor, #Door, #Window, #Lamp, #Rug, #Sofa, #Stuff {
+    position: absolute;
+    width: 1920px;
+    height: 1080px;
+    left: 5vw;
+    top: 10vh;
+    border: 10px solid #EE9927;
+    /* width of actual image */
+    /* height of actual image */
+  }
+
+  #nextWall{
+    position:absolute;
+    left: 200px;
+    top: 500px;
+    color: white;
+    border-radius: 5px;
+    padding: 0 10px;
+    background-color: #EE9927;
+    font-weight: 500;
+    
+  }
+  
+  #nextFloor{
+    position:absolute;
+    left: 420px;
+    top: 500px;
+    color: white;
+    border-radius: 5px;
+    padding: 0 10px;
+    background-color: #EE9927;
+    font-weight: 500;
+  }
+  
+  #nextDoor{
+    position:absolute;
+    left: 647.5px;
+    top: 500px;
+    color: white;
+    border-radius: 5px;
+    padding: 0 10px;
+    background-color: #EE9927;
+    font-weight: 500;
+  }
+  
+  #nextLamp{
+    position:absolute;
+    left: 875px;
+    top: 500px;
+    color: white;
+    border-radius: 5px;
+    padding: 0 10px;
+    background-color: #EE9927;
+    font-weight: 500;
+  }
+  
+  #nextView{
+    position:absolute;
+    left: 1105px;
+    top: 500px;
+    color: white;
+    border-radius: 5px;
+    padding: 0 10px;
+    background-color: #EE9927;
+    font-weight: 500;
+  }
+  
+  #nextRug{
+    position:absolute;
+    left: 1327.5px;
+    top: 500px;
+    color: white;
+    border-radius: 5px;
+    padding: 0 10px;
+    background-color: #EE9927;
+    font-weight: 500;
+  }
+  
+  #nextSofa{
+    position:absolute;
+    left: 1545px;
+    top: 500px;
+    color: white;
+    border-radius: 5px;
+    padding: 0 10px;
+    background-color: #EE9927;
+    font-weight: 500;
+  }
+  
+  #nextStuff{
+    position:absolute;
+    left: 1770px;
+    top: 500px;
+    color: white;
+    border-radius: 5px;
+    padding: 0 10px;
+    background-color: #EE9927;
+    font-weight: 500;
+  }
+  
+  
+  #randomize{
+    position:absolute;
+    left:2500px;
+    top: 1000px;
+    color: white;
+    border-radius: 5px;
+    padding: 0 10px;
+    background-color: #EE9927;
+    font-weight: 500;
+  }
+}
+
+#mintnew {
+  position:absolute;
+  left:2500px;
+  top: 900px;
+  color: white;
+  border-radius: 5px;
+  padding: 0 10px;
+  background-color: grey;
+  font-weight: 500;
 }
