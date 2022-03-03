@@ -240,8 +240,8 @@ code {
 
 #nextWall{
   position:absolute;
-  left: 2500px;
-  top: 500px;
+  left: 2320px;
+  top: 450px;
   color: white;
   border-radius: 5px;
   padding: 0 10px;
@@ -252,7 +252,7 @@ code {
 
 #nextFloor{
   position:absolute;
-  left: 2500px;
+  left: 2320px;
   top: 550px;
   color: white;
   border-radius: 5px;
@@ -263,7 +263,7 @@ code {
 
 #nextDoor{
   position:absolute;
-  left: 2500px;
+  left: 2320px;
   top: 600px;
   color: white;
   border-radius: 5px;
@@ -274,7 +274,7 @@ code {
 
 #nextLamp{
   position:absolute;
-  left: 2500px;
+  left: 2320px;
   top: 650px;
   color: white;
   border-radius: 5px;
@@ -285,7 +285,7 @@ code {
 
 #nextView{
   position:absolute;
-  left: 2500px;
+  left: 2320px;
   top: 700px;
   color: white;
   border-radius: 5px;
@@ -296,7 +296,7 @@ code {
 
 #nextRug{
   position:absolute;
-  left: 2500px;
+  left: 2320px;
   top: 750px;
   color: white;
   border-radius: 5px;
@@ -307,7 +307,7 @@ code {
 
 #nextSofa{
   position:absolute;
-  left: 2500px;
+  left: 2320px;
   top: 800px;
   color: white;
   border-radius: 5px;
@@ -318,7 +318,7 @@ code {
 
 #nextStuff{
   position:absolute;
-  left: 2500px;
+  left: 2320px;
   top: 850px;
   color: white;
   border-radius: 5px;
@@ -327,14 +327,14 @@ code {
   font-weight: 500;
 }
 
-#randomize{
+#mintnew {
   position:absolute;
-  left:2500px;
-  top: 1000px;
+  left: 2320px;
+  top: 900px;
   color: white;
   border-radius: 5px;
   padding: 0 10px;
-  background-color: #EE9927;
+  background-color: grey;
   font-weight: 500;
 }
 
@@ -343,8 +343,8 @@ code {
     position: absolute;
     width: 1920px;
     height: 1080px;
-    left: 5vw;
-    top: 10vh;
+    left: 0vw;
+    top: 5vh;
     border: 10px solid #EE9927;
     /* width of actual image */
     /* height of actual image */
@@ -352,8 +352,8 @@ code {
 
   #nextWall{
     position:absolute;
-    left: 200px;
-    top: 500px;
+    left: 20px;
+    top: 450px;
     color: white;
     border-radius: 5px;
     padding: 0 10px;
@@ -364,8 +364,8 @@ code {
   
   #nextFloor{
     position:absolute;
-    left: 420px;
-    top: 500px;
+    left: 240px;
+    top: 450px;
     color: white;
     border-radius: 5px;
     padding: 0 10px;
@@ -375,8 +375,8 @@ code {
   
   #nextDoor{
     position:absolute;
-    left: 647.5px;
-    top: 500px;
+    left: 468px;
+    top: 450px;
     color: white;
     border-radius: 5px;
     padding: 0 10px;
@@ -386,8 +386,8 @@ code {
   
   #nextLamp{
     position:absolute;
-    left: 875px;
-    top: 500px;
+    left: 695px;
+    top: 450px;
     color: white;
     border-radius: 5px;
     padding: 0 10px;
@@ -397,8 +397,8 @@ code {
   
   #nextView{
     position:absolute;
-    left: 1105px;
-    top: 500px;
+    left: 925px;
+    top: 450px;
     color: white;
     border-radius: 5px;
     padding: 0 10px;
@@ -408,8 +408,8 @@ code {
   
   #nextRug{
     position:absolute;
-    left: 1327.5px;
-    top: 500px;
+    left: 1150px;
+    top: 450px;
     color: white;
     border-radius: 5px;
     padding: 0 10px;
@@ -419,8 +419,8 @@ code {
   
   #nextSofa{
     position:absolute;
-    left: 1545px;
-    top: 500px;
+    left: 1368px;
+    top: 450px;
     color: white;
     border-radius: 5px;
     padding: 0 10px;
@@ -430,35 +430,24 @@ code {
   
   #nextStuff{
     position:absolute;
-    left: 1770px;
-    top: 500px;
+    left: 1590px;
+    top: 450px;
     color: white;
     border-radius: 5px;
     padding: 0 10px;
     background-color: #EE9927;
     font-weight: 500;
   }
-  
-  
-  #randomize{
-    position:absolute;
-    left:2500px;
-    top: 1000px;
-    color: white;
-    border-radius: 5px;
-    padding: 0 10px;
-    background-color: #EE9927;
-    font-weight: 500;
-  }
-}
 
-#mintnew {
-  position:absolute;
-  left:2500px;
-  top: 900px;
-  color: white;
-  border-radius: 5px;
-  padding: 0 10px;
-  background-color: grey;
-  font-weight: 500;
+  #mintnew {
+    position:absolute;
+    left: 1590px;
+    top: 350px;
+    color: white;
+    border-radius: 5px;
+    padding: 0 10px;
+    background-color: grey;
+    font-weight: 500;
+  }
+  
 }
