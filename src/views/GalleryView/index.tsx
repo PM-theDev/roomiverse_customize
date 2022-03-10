@@ -144,7 +144,7 @@ export const GalleryView: FC = ({ }) => {
     // if next_num exceeds total, restart (set current to 0)
     let new_current = next_num < Rug.length ? next_num : 0
     setRugState(new_current)
-    setRugDetail(Rug[RugState].replace(".jpg", "").replace(".png", ""))
+    setRugDetail(Rug[RugState].replace(".jpg", "").replace(".png", "").replace(" ", ""))
 
   }
   function nextFloor(Floor: any, FloorState: number) {
@@ -152,7 +152,7 @@ export const GalleryView: FC = ({ }) => {
     // if next_num exceeds total, restart (set current to 0)
     let new_current = next_num < Floor.length ? next_num : 0
     setFloorState(new_current)
-    setFloorDetail(Floor[FloorState].replace(".jpg", "").replace(".png", ""))
+    setFloorDetail(Floor[FloorState].replace(".jpg", "").replace(".png", "").replace(" ", ""))
   }
 
   function nextDoor(Door: any, DoorState: number) {
@@ -160,7 +160,7 @@ export const GalleryView: FC = ({ }) => {
     // if next_num exceeds total, restart (set current to 0)
     let new_current = next_num < Door.length ? next_num : 0
     setDoorState(new_current)
-    setDoorDetail(Door[DoorState].replace(".jpg", "").replace(".png", ""))
+    setDoorDetail(Door[DoorState].replace(".jpg", "").replace(".png", "").replace(" ", ""))
   }
 
 
@@ -169,7 +169,7 @@ export const GalleryView: FC = ({ }) => {
     // if next_num exceeds total, restart (set current to 0)
     let new_current = next_num < Sofa.length ? next_num : 0
     setSofaState(new_current)
-    setSofaDetail(Sofa[SofaState].replace(".jpg", "").replace(".png", ""))
+    setSofaDetail(Sofa[SofaState].replace(".jpg", "").replace(".png", "").replace(" ", ""))
   }
 
   function nextStuff(Stuff: any, StuffState: number) {
@@ -177,7 +177,7 @@ export const GalleryView: FC = ({ }) => {
     // if next_num exceeds total, restart (set current to 0)
     let new_current = next_num < Stuff.length ? next_num : 0
     setStuffState(new_current)
-    setStuffDetail(Stuff[StuffState].replace(".jpg", "").replace(".png", ""))
+    setStuffDetail(Stuff[StuffState].replace(".jpg", "").replace(".png", "").replace(" ", ""))
   }
 
   function nextView(View: any, ViewState: number) {
@@ -185,7 +185,7 @@ export const GalleryView: FC = ({ }) => {
     // if next_num exceeds total, restart (set current to 0)
     let new_current = next_num < View.length ? next_num : 0
     setViewState(new_current)
-    setViewDetail(View[ViewState].replace(".jpg", "").replace(".png", ""))
+    setViewDetail(View[ViewState].replace(".jpg", "").replace(".png", "").replace(" ", ""))
   }
 
 
@@ -194,7 +194,7 @@ export const GalleryView: FC = ({ }) => {
     // if next_num exceeds total, restart (set current to 0)
     let new_current = next_num < Lamp.length ? next_num : 0
     setLampState(new_current)
-    setLampDetail(Lamp[LampState].replace(".jpg", "").replace(".png", ""))
+    setLampDetail(Lamp[LampState].replace(".jpg", "").replace(".png", "").replace(" ", ""))
   }
 
   function nextWall(Wall: any, WallState: number) {
@@ -202,7 +202,7 @@ export const GalleryView: FC = ({ }) => {
     // if next_num exceeds total, restart (set current to 0)
     let new_current = next_num < Wall.length ? next_num : 0
     setWallState(new_current)
-    setWallDetail(Wall[WallState].replace(".jpg", "").replace(".png", ""))
+    setWallDetail(Wall[WallState].replace(".jpg", "").replace(".png", "").replace(" ", ""))
   }
 
   return (
