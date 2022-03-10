@@ -57,7 +57,7 @@ export const GalleryView: FC = ({ }) => {
   const [WallDetail, setWallDetail] = useState('RMV-Condo-Wall');
   const [DoorDetail, setDoorDetail] = useState('RMV-Condo-Door');
   const [SofaDetail, setSofaDetail] = useState('RMV-Condo-Sofa');
-  const [StuffDetail, setStuffDetail] = useState('RMV-Condo-Stuff');
+  const [StuffDetail, setStuffDetail] = useState('RMV-Condo-Stuff-first');
   const [LampDetail, setLampDetail] = useState('RMV-Condo-Lamp');
   const [ViewDetail, setViewDetail] = useState('RMV-Condo-Window');
   const [FloorDetail, setFloorDetail] = useState('RMV-Condo-Floor');
@@ -117,14 +117,14 @@ export const GalleryView: FC = ({ }) => {
     Stuff = Array.from(new Set(Stuff));
     View = Array.from(new Set(View));
 
-    setWallDetail(Wall[WallState].replace(".jpg", "").replace(".png", ""))
-    setDoorDetail(Door[DoorState].replace(".jpg", "").replace(".png", ""))
-    setFloorDetail(Floor[FloorState].replace(".jpg", "").replace(".png", ""))
-    setViewDetail(View[ViewState].replace(".jpg", "").replace(".png", ""))
-    setStuffDetail(Stuff[StuffState].replace(".jpg", "").replace(".png", ""))
-    setSofaDetail(Sofa[SofaState].replace(".jpg", "").replace(".png", ""))
-    setRugDetail(Rug[RugState].replace(".jpg", "").replace(".png", ""))
-    setLampDetail(Lamp[LampState].replace(".jpg", "").replace(".png", ""))
+    setWallDetail(Wall[WallState].replace(".jpg", "").replace(".png", "").replace(" ", ""))
+    setDoorDetail(Door[DoorState].replace(".jpg", "").replace(".png", "").replace(" ", ""))
+    setFloorDetail(Floor[FloorState].replace(".jpg", "").replace(".png", "").replace(" ", ""))
+    setViewDetail(View[ViewState].replace(".jpg", "").replace(".png", "").replace(" ", ""))
+    setStuffDetail(Stuff[StuffState].replace(".jpg", "").replace(".png", "").replace(" ", ""))
+    setSofaDetail(Sofa[SofaState].replace(".jpg", "").replace(".png", "").replace(" ", ""))
+    setRugDetail(Rug[RugState].replace(".jpg", "").replace(".png", "").replace(" ", ""))
+    setLampDetail(Lamp[LampState].replace(".jpg", "").replace(".png", "").replace(" ", ""))
     return { Rug, Door, Wall, Floor, Sofa, Lamp, Stuff, View };
   }
 

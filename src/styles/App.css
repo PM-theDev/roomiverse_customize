@@ -69,6 +69,10 @@ code {
   background-image : url(./img/Stuff/RMV-Condo-Stuff.png)
 }
 
+.RMV-Condo-Stuff-first {
+  background-image : url(./img/Stuff/RMV-Condo-Stuff-first.png)
+}
+
 .RMV-Condo-Sofa {
   background-image : url(./img/Sofa/RMV-Condo-Sofa.png)
 }
@@ -150,6 +154,14 @@ code {
   background-image: url(./img/Window/RMV-Neon-Window.png);
 }
 
+.BlackCat-Orga{
+  background-image: url(./img/Window/BlackCat-Orga.png);
+}
+
+.BlackCat-Astroboi{
+  background-image: url("./img/Window/BlackCat-Astro boi.png");
+}
+
 .RMV-Condo-Lamp{
   background-image: url(./img/Lamp/RMV-Condo-Lamp.png);
 }
@@ -194,6 +206,14 @@ code {
   background-image: url(./img/Rug/RMV-Neon-Rug.png);
 }
 
+.Rug-Tiger{
+  background-image: url(./img/Rug/Rug-Tiger.png);
+}
+
+.Rug-Zen{
+  background-image: url(./img/Rug/Rug-Zen.png);
+}
+
 .RMV-Condo-Sofa{
   background-image: url(./img/Sofa/RMV-Condo-Sofa.png);
 }
@@ -214,6 +234,15 @@ code {
   background-image: url(./img/Sofa/RMV-Neon-Sofa.png);
 }
 
+
+.Sofa-Cloud9{
+  background-image: url(./img/Sofa/Sofa-Cloud9.png);
+}
+
+.Sofa-NihonGhost{
+  background-image: url("./img/Sofa/Sofa-Nihon Ghost.png");
+}
+
 .RMV-Condo-Stuff{
   background-image: url(./img/Stuff/RMV-Condo-Stuff.png);
 }
@@ -232,6 +261,14 @@ code {
 
 .RMV-Neon-Stuff{
   background-image: url(./img/Stuff/RMV-Neon-Stuff.png);
+}
+
+.BlackCat-Arcade{
+  background-image: url(./img/Stuff/BlackCat-Arcade.png);
+}
+
+.BlackCat-MetaFire{
+  background-image: url("./img/Stuff/BlackCat-Meta Fire.png");
 }
 
 .RMV-Door_Space{
